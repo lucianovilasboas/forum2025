@@ -21,6 +21,14 @@ def main():
     eletricidade = st.number_input("Consumo mensal de eletricidade (kWh):", min_value=0.0, step=1.0)
     emissao_eletricidade = eletricidade * 0.5  # Média de emissão por kWh (em kg de CO2)
 
+    energia_solar = st.checkbox("Utiliza energia solar?")
+    if energia_solar:
+        emissao_eletricidade *= 0.2  # Redução de emissões se utilizar energia solar
+
+    energia_eolica = st.checkbox("Utiliza energia eólica?")
+    if energia_eolica:
+        emissao_eletricidade *= 0.1  # Redução maior de emissões se utilizar energia eólica
+
     st.header("2. Transporte")
     km_carro = st.number_input("Quilômetros percorridos de carro por mês:", min_value=0.0, step=1.0)
     tipo_combustivel = st.selectbox("Tipo de combustível:", ["Gasolina", "Diesel", "Álcool"])

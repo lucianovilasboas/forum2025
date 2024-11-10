@@ -1,7 +1,7 @@
 import streamlit as st
 
 def main():
-    st.title("Equipes")
+    st.title("👥 Equipes")
     
     st.header("Equipe do Ciclo da Água")
     st.write("Conheça a equipe de professores e estudantes do Fórum França-Brasil.")

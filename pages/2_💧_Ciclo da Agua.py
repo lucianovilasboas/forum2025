@@ -3,7 +3,7 @@ import streamlit as st
 
 
 def main():
-    st.title("Cycle de l'eau/Ciclo da Água")
+    st.title("💧 Cycle de l'eau/Ciclo da Água")
 
     col_fr, col_br = st.columns([1, 1])
     
