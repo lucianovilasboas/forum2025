@@ -2,35 +2,58 @@ import streamlit as st
 
 st.set_page_config(page_title="Fórum França-Brasil", page_icon=":earth_americas:", layout="wide")
 
-
 st.title("Fórum França-Brasil")
-st.header("Sobre o Fórum")
+st.header("Fórum Ciência e Sociedade")
 st.write("""
-O Fórum França-Brasil é um evento bi-anual que reúne especialistas, acadêmicos, 
-empresários e autoridades dos dois países para discutir temas de interesse comum. 
-O objetivo é fortalecer as relações bilaterais e promover a cooperação em diversas áreas, 
-como economia, cultura, ciência e tecnologia.
-            
-Após seu encontro em junho de 2023 em Paris, os Presidentes Emmanuel Macron e Luiz Inácio Lula da Silva decidiram organizar uma Temporada Brasil-França em 2025, para dar novo impulso à relação bilateral, que celebrará 200 anos em 2025, e fortalecer as nossas ações comuns face aos desafios políticos, sociais e ecológicos contemporâneos. Neste espírito, a Temporada favorecerá projetos baseados em parcerias entre instituições e organizações francesas e brasileiras, suscetíveis de se prolongarem para além de 2025 e de fortalecerem os laços entre as nossas sociedades. Multidisciplinar, inovadora e comprometida, a Temporada contará com uma primeira parte brasileira na França, de abril a setembro, precedida de um prelúdio a partir de janeiro, e uma segunda parte francesa no Brasil, de agosto a dezembro de 2025.
+O Fórum Ciência e Sociedade reúne alternadamente estudantes e professores/pesquisadores de estabelecimentos de ensino agrícola franceses e brasileiros, alternadamente na França e no Brasil. Este fórum é uma grande experiência de partilha e encontros internacionais para contribuir para a formação e enriquecimento cultural e científico dos jovens. Faz parte da missão de cooperação internacional dedicada à educação agrícola.
 
-As prioridades definidas pelos dois presidentes para esta Temporada são as seguintes: clima e transição ecológica; diversidade das sociedades e diálogo com África; democracia e globalização equitativa.
+Entre as instituições promotoras deste evento estão o Ministério da Agricultura e Soberania Alimentar da França, o Réseau Brésil de l'Enseignement Agricole, o Conselho Nacional Brasileiro das Instituições da Rede Federal de Educação Profissional, Científica e Tecnológica (CONIF), bem como a Secretaria de Educação Profissional e Tecnológica (SETEC), vinculada ao Ministério da Educação do Brasil.
 
-O edital promovido pelo Institut Français trata da seleção e certificação de projetos no âmbito da programação francesa no Brasil. Está acessível no seguinte link, até sexta-feira 28 de junho de 2024 (23h59 – horário de Paris):
+Em cada uma das sete edições anteriores deste fórum, as delegações francesa e brasileira reuniram-se para conferências, mesas redondas e workshops, dando lugar de destaque ao intercâmbio com os jovens.
 
-https://www.institutfrancais.com/fr/offre/france-bresil-2025
+A próxima edição do fórum acontecerá entre os dias 19 a 24 de outubro de 2025 no IFMG Campus Bambuí, em Minas Gerais. O tema norteador centrar-se-á nas alterações climáticas e nas transições ambientais na agricultura. Esta é uma agenda conjunta das instituições organizadoras e participantes que tem como objetivo fortalecer os laços de cooperação internacional no ano em que se comemoram 200 anos de relações diplomáticas entre a França e o Brasil.
 
-Este edital, em francês e inglês, está aberto a proponentes, franceses ou brasileiros, que queiram propor projetos que se inscrevam nesta programação, que será realizada de agosto a dezembro de 2025 no Brasil. Os projetos apresentados deverão envolver profissionais dos dois países, comprometidos em uma parceria.
+Cada instituição participante será composta por 1 professor acompanhante e 4 alunos, prevendo-se a participação de pelo menos 32 instituições francesas ou brasileiras. Somando esses participantes aos palestrantes convidados, equipe organizadora, voluntários e autoridades, estima-se um público de 250 pessoas.
 
-Para qualquer dúvida, entre em contato com o Pôle Saisons et Temps forts do Institut Français: france-bresil@institutfrancais.com
-
-A curadoria brasileira selecionará, em edital dedicado, os projetos no âmbito da programação brasileira na França. Para projetos realizados na França, os proponentes estão convidados a entrar em contato com a curadoria brasileira:
-brasilfranca2025@itamaraty.gov.br
-
-Texto extraído do site da [Embaixada da França no Brasil](https://br.ambafrance.org/Temporada-Franca-Brasil-2025).             
+Antes da realização do fórum propriamente dito, pares de instituições parceiras, uma de cada país, desenvolvem um trabalho conjunto com pelo menos um ano de antecedência, no âmbito da chamada fase de sensibilização (desde outubro de 2024). Uma semana antes do fórum, a instituição brasileira receberá o parceiro francês em suas instalações, para trocar experiências e alinhar os preparativos para o fórum. Durante o fórum, cada dupla de equipes parceiras deverá fazer uma apresentação técnica e cultural. Além disso, assim como nas edições anteriores, haverá conferências, mesas redondas, oficinas técnicas e culturais e visitas técnicas a produtores locais.
 """)
 
+st.subheader("Temas da Edição 2025")
+st.write("""
+**Tema principal:**
 
+Sistemas alimentares e mudanças climáticas: desafios e perspectivas
 
+Systèmes alimentaires et changements climatiques: enjeux et perspectives
+
+**Subtemas:**
+
+- **Subtema 1:**
+
+Tecnologias e estratégias para uma produção agrícola sustentável
+
+Technologies et stratégies vers/pour une production agricole durable
+
+- **Subtema 2:**
+
+Gestão de recursos naturais
+
+Gestion des ressources naturelles
+
+- **Subtema 3:**
+
+Protagonismo individual e coletivo no enfrentamento das alterações climáticas
+
+Protagonisme individuel et collectif face aux changements climatiques
+""")
+
+st.subheader("Parceiros")
+st.write("""
+- Ministério da Agricultura e da Alimentação da França
+- Réseau Brésil de l'Enseignement Agricole
+- Conselho Nacional Brasileiro das Instituições da Rede Federal de Educação Profissional, Científica e Tecnológica (CONIF)
+- Secretaria de Educação Profissional e Tecnológica (SETEC)
+""")
 
 # Rodapé
 st.markdown("---")
